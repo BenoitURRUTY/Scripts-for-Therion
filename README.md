@@ -2,6 +2,10 @@
 
 Vous trouverez ici un ensemble de script pour hiérarchiser son travail avec Therion.
 
+Certaines variables sont à motifier tel que le `PATH_TEMPLATE` et `PATH_SURVEY`
+
+
+
 *create_cave_structure.sh* permet de créer les dossiers pour démarrer une topographie de cavité contenant plusieurs survey
 
  
