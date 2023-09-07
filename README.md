@@ -15,3 +15,7 @@ Certaines variables sont à motifier tel que le `PATH_TEMPLATE` et `PATH_SURVEY`
 
 
 *run_all.sh* est un script qu’il faut avoir dans un dossier parent à tout dossier de compilation. Il permet de lancer la compilation de l’ensemble des thconfig contenu dans les sous-dossiers
+
+
+
+*Change_survey_name.sh* Permet de renommer les fichiers d’une survey et de changer le noms dans l’ensemble des sous-dossier. Utilisé à confirmer ou à peaufiner
