@@ -8,7 +8,7 @@
 #
 # Written by: / Ecrit par : Benoît Urruty
 
-PATH_TEMPLATE='/home/urrutyb/Documents/therion/Therion_survey'
+PATH_TEMPLATE='/home/urrutyb/Documents/therion/Script_Therion'
 
 if [ -z "$1" ]
 then
@@ -26,11 +26,10 @@ cd $S
 mkdir Outputs
 mkdir Data
 
-sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-SC.th > ${S}-SC.th
-sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-SP.th > ${S}-SP.th
+sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-maps.th > ${S}-maps.th
 sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-tot.th > ${S}-tot.th
 sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/thconfig > thconfig
 
-sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-coupe.th2 > Data/${S}-coupe.th2
-sed "s/<CAVENAME>/$S/g" ${PATH_TEMPLATE}/Therion_files_pattern/CAVENAME-plan.th2 > Data/${S}-plan.th2
+touch Data/${S}-coupe.th2
+touch Data/${S}-plan.th2
 cd ..

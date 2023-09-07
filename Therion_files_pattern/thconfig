@@ -89,7 +89,7 @@ layout my_layout
    opacity 75
 
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Plan<ss> - Saint-Pierre de Chartreuse, 38, France"
+   map-comment "<it>Plan<ss> - Ville, depart, Pays"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -159,7 +159,7 @@ layout my_layout
          \cavename={<CAVENAME>} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
-      \newtoks\club \club={GUCEM}
+      \newtoks\club \club={}
    endcode  
 
    # add extended-elev on the same pdf
@@ -225,7 +225,7 @@ layout my_layout-coupe
    opacity 75
       
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Coupe développée<ss> - Saint-Pierre de Chartreuse,38, France"
+   map-comment "<it>Coupe développée<ss> - Ville, depart, Pays"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -292,7 +292,7 @@ layout my_layout-coupe
          \cavename={<CAVENAME>} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
-      \newtoks\club \club={GUCEM}
+      \newtoks\club \club={}
    endcode  
   
 endlayout  
