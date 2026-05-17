@@ -9,3 +9,5 @@ Vous trouverez ici un ensemble de script pour hiérarchiser son travail avec The
 # script en cours de création
 
 *create_cave_structure.py* permet de créer les dossiers pour démarrer une topographie de cavité contenant plusieurs survey
+
+*create_scrap.py* script automatique de creation de scrap
