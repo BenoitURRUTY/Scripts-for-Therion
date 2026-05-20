@@ -560,10 +560,6 @@ cs UTM32  # Remplacez 32 par votre zone
 - [Therion Book (manuel)](https://therion.speleo.sk/downloads/thbook.pdf)
 - [Wiki Therion](https://therion.speleo.sk/wiki/)
 
-### Communauté
-- [Forum Therion](https://groups.google.com/g/therion-users)
-- [Telegram Therion FR](https://t.me/therion_fr)
-
 ### Logiciels complémentaires
 - [TopoDroid](https://sites.google.com/site/speleoapps/) - Saisie terrain Android
 - [Survex](https://survex.com/) - Alternative à Therion
